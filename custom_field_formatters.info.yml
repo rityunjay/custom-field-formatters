@@ -1,0 +1,7 @@
+name: Custom Field Formatters
+type: module
+description: 'Custom module for Field Formatters'
+package: Custom
+core: 8.x
+dependencies:
+  - field

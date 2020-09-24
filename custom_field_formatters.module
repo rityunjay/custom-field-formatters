@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Defines custom field formatter for the link field.
+ */
+
+ /**
+ * Implements hook_theme().
+ */
+function custom_field_formatter_theme() {
+  return array(
+    'custom_field_formatter' => array(
+      'variables' => array('url' => NULL),
+      'template' => 'custom-field-formatter',
+    ),
+  );
+}
